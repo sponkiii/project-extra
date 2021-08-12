@@ -1,5 +1,5 @@
 .sectioncontainer{
-    border: 1px solid rgb(255, 0, 0);
+    /* border: 1px solid rgb(255, 0, 0); */
     width: 100%;
 }
 .container{
@@ -10,15 +10,15 @@
     padding-bottom: 1%;
 }
 .content{
-    border: 1px solid rgb(3, 3, 3);
+    /* border: 1px solid rgb(3, 3, 3); */
     text-align: center;
     padding: auto;
     font-family:  Montserrat;
 }
-.upper-content{
+/* .upper-content{
     border: 1px solid rgb(0, 171, 177);
     
-}
+} */
 .upper-content h1{
     color: #014574;
     text-shadow: 2px 0 #014574;
@@ -40,7 +40,7 @@
     font-size: 105%;
 }
 #upper-content-logo-container{
-    border: 1px solid rgb(12, 0, 177);
+    /* border: 1px solid rgb(12, 0, 177); */
     width: 25%;
     height: 40%;
     margin: auto;
@@ -59,7 +59,7 @@
     top: 0% */
 }
 #middle-content{
-    border: 1px solid rgb(46, 0, 252);
+    /* border: 1px solid rgb(46, 0, 252); */
     display: flex;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -72,7 +72,7 @@
 
 }
 #name-container{
-    border: 1px solid rgb(46, 0, 252);
+    /* border: 1px solid rgb(46, 0, 252); */
     width: auto;
     margin: 0%;
 }
@@ -93,22 +93,22 @@
     border: solid 10px;
     border-color: transparent rgb(0, 59, 107) transparent transparent;
 }
-.lower-content{
+/* .lower-content{
     border: 1px solid rgb(139, 0, 252);
 }
 .lower-text{
     border: 1px solid rgb(211, 127, 0);
-}
+} */
 .lower-text p{
     color:#000000;
     font-size: 85%; 
     text-shadow: 0.5px 0 #000000;
 }
-#signature-container{
+/* #signature-container{
     border: 1px solid rgb(0, 78, 131);
-}
+} */
 .signer-name-img-container{
-    border: 1px solid rgb(4, 131, 0);
+    /* border: 1px solid rgb(4, 131, 0); */
     width: 23%;
     height: 100%;
     margin: auto;
@@ -123,9 +123,9 @@
     height: 100%;
     width: 100%;
 }
-.signer-name{
+/* .signer-name{
     border: 1px solid rgb(0, 78, 131);
-}
+} */
 .signer-name p{
     color:#005a9b !important;
     text-shadow: 0.5px 0 #005a9b !important;
@@ -134,13 +134,13 @@
     margin: auto;
 }
 hr{
-    border: 1px solid black; 
+    /* border: 1px solid black;  */
     width: 30%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 .footer{
-    border: 1px solid rgb(0, 134, 11);
+    /* border: 1px solid rgb(0, 134, 11); */
     font-family:  Montserrat;
     color:#000000;    
     text-shadow: 1px 0 #000000;
