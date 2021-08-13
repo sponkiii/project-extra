@@ -3,11 +3,13 @@
     width: 100%;
 }
 .container{
-    border: 1px solid rgb(0, 255, 76);
+    /* border: 1px solid rgb(0, 255, 76); */
     width: auto;
     background-color: #F5F5F5;
     padding-top: 1%;
     padding-bottom: 1%;
+    background-image: url(Assets/bg.svg);
+    background-size: 100% 100%;
 }
 .content{
     /* border: 1px solid rgb(3, 3, 3); */
@@ -69,6 +71,8 @@
     text-shadow: 2px 0 #000000;
     letter-spacing:1px;
     font-weight:bolder;
+    padding: auto;
+    margin: auto;
 
 }
 #name-container{
@@ -134,7 +138,7 @@
     margin: auto;
 }
 hr{
-    /* border: 1px solid black;  */
+    border: 1px solid black; 
     width: 30%;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -149,5 +153,4 @@ hr{
     font-size: 110%;
     padding-top: 1%;
     padding-bottom: 1%;
-    
 }
