@@ -1,0 +1,244 @@
+.sectioncontainer{
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 100%;
+}
+.container{
+    /* border: 1px solid rgb(0, 255, 76); */
+    width: auto;
+    background-color: #F5F5F5;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-image: url(../Assets/bgOrange.svg);
+    background-size: 100% 100%;
+}
+.content{
+    /* border: 1px solid rgb(3, 3, 3); */
+    text-align: center;
+    padding: auto;
+    font-family:  Montserrat;
+}
+/* .upper-content{
+    border: 1px solid rgb(0, 171, 177);
+    
+} */
+.upper-content h1{
+    color: #014574;
+    text-shadow: 2px 0 #014574;
+    letter-spacing:1px;
+    font-weight:bolder;
+}
+.upper-content h4{
+    color: rgb(255, 255, 255); 
+    transform: skew(40deg);
+    letter-spacing:1px;
+    font-weight:normal;
+    font-size: 130%;
+}
+.upper-content h5{
+    color: #005a9b;
+    text-shadow: 1px 0 #005a9b;
+    letter-spacing:3px;
+    font-weight:normal;
+    font-size: 105%;
+}
+#upper-content-logo-container{
+    /* border: 1px solid rgb(12, 0, 177); */
+    width: 25%;
+    height: 40%;
+    margin: auto;
+}
+.upper-content-logo{
+    width: 100%;
+    height: 100%;
+}
+#parallelogram{
+    /* width: 350%;  */
+    /* height: 10%;  */
+    transform: skew(320deg);
+    background: rgb(0, 59, 107);
+    margin: auto;
+    /* position: absolute;
+    left: 20%;
+    top: 0% */
+}
+#middle-content{
+    /* border: 1px solid rgb(46, 0, 252); */
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#middle-content h1{
+    color: #000000;
+    text-shadow: 2px 0 #000000;
+    letter-spacing:1px;
+    font-weight:bolder;
+    padding: auto;
+    margin: auto;
+
+}
+#name-container{
+    /* border: 1px solid rgb(46, 0, 252); */
+    width: auto;
+    margin: 0%;
+}
+#right{
+    margin: auto;
+    margin-left: 10%;
+    width: 0;
+    height: 0;
+    border: solid 10px;
+    border-color: transparent transparent transparent rgb(0, 59, 107);
+    
+}
+#left{
+    margin: auto;
+    margin-right: 10%;
+    width: 0;
+    height: 0;
+    border: solid 10px;
+    border-color: transparent rgb(0, 59, 107) transparent transparent;
+}
+/* .lower-content{
+    border: 1px solid rgb(139, 0, 252);
+}
+.lower-text{
+    border: 1px solid rgb(211, 127, 0);
+} */
+.lower-text p{
+    color:#000000;
+    font-size: 85%; 
+    text-shadow: 0.5px 0 #000000;
+}
+/* #signature-container{
+    border: 1px solid rgb(0, 78, 131);
+} */
+.signer-name-img-container{
+    /* border: 1px solid rgb(4, 131, 0); */
+    width: 23%;
+    height: 100%;
+    margin: auto;
+}
+#signature-container p{
+    color:#707070;
+    font-size: 50%;
+    letter-spacing:2px; 
+    text-shadow: 0.5px 0 #707070;
+}
+.signer-name-img{
+    height: 100%;
+    width: 100%;
+}
+/* .signer-name{
+    border: 1px solid rgb(0, 78, 131);
+} */
+.signer-name p{
+    color:#005a9b !important;
+    text-shadow: 0.5px 0 #005a9b !important;
+    font-weight:bold;
+    font-size: 70% !important;
+    margin: auto;
+}
+hr{
+    border: 1px solid black; 
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.footer{
+    /* border: 1px solid rgb(0, 134, 11); */
+    font-family:  Montserrat;
+    color:#000000;    
+    text-shadow: 1px 0 #000000;
+    letter-spacing:1px;
+    font-weight:bolder;
+    font-size: 110%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+@media(max-width:766px){
+    .content{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .upper-content h1{
+        text-shadow: 1px 0 #014574;
+        letter-spacing:1px;
+        font-size: 150%;
+    }
+    .upper-content h4{
+        letter-spacing:1px;
+        font-size: 80%;
+    }
+    .upper-content h5{
+        margin-top: 2%;
+        color: #005a9b;
+        text-shadow: 1px 0 #005a9b;
+        letter-spacing:3px;
+        font-size: 60%;
+    }
+    #middle-content h1{
+        font-size: 150%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #signature-container{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #signature-container p{
+        font-size: 35%;
+        
+    }
+    .footer{
+        font-size: 70%;
+    }
+    
+}
+@media(max-width:400px){
+    .content{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .upper-content h1{
+        text-shadow: 1px 0 #014574;
+        letter-spacing:1px;
+        font-size: 110%;
+    }
+    .upper-content h4{
+        letter-spacing:1px;
+        font-size: 64%;
+    }
+    .upper-content h5{
+        color: #005a9b;
+        text-shadow: 1px 0 #005a9b;
+        letter-spacing:2px;
+        font-size: 55%;
+    }
+    #middle-content h1{
+        font-size: 150%;
+    }
+    #signature-container p{
+        font-size: 30%;
+        
+    }
+    .footer{
+        font-size: 70%;
+    }
+    
+}
+@media(max-width:360px){
+    .container{
+        padding-top: 2%;
+    }
+    .upper-content h4{
+        letter-spacing:1px;
+        font-size: 53%;
+    }
+    .upper-content h5{
+        color: #005a9b;
+        text-shadow: 1px 0 #005a9b;
+        letter-spacing:2px;
+        font-size: 47%;
+    }
+}

@@ -8,7 +8,7 @@
     background-color: #F5F5F5;
     padding-top: 1%;
     padding-bottom: 1%;
-    background-image: url(Assets/bg.svg);
+    background-image: url(../Assets/bgGray.svg);
     background-size: 100% 100%;
 }
 .content{
@@ -56,6 +56,7 @@
     /* height: 10%;  */
     transform: skew(320deg);
     background: rgb(0, 59, 107);
+    margin: auto;
     /* position: absolute;
     left: 20%;
     top: 0% */
@@ -153,4 +154,91 @@ hr{
     font-size: 110%;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+@media(max-width:766px){
+    .content{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .upper-content h1{
+        text-shadow: 1px 0 #014574;
+        letter-spacing:1px;
+        font-size: 150%;
+    }
+    .upper-content h4{
+        letter-spacing:1px;
+        font-size: 80%;
+    }
+    .upper-content h5{
+        margin-top: 2%;
+        color: #005a9b;
+        text-shadow: 1px 0 #005a9b;
+        letter-spacing:3px;
+        font-size: 60%;
+    }
+    #middle-content h1{
+        font-size: 150%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #signature-container{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #signature-container p{
+        font-size: 35%;
+        
+    }
+    .footer{
+        font-size: 70%;
+    }
+    
+}
+@media(max-width:400px){
+    .content{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .upper-content h1{
+        text-shadow: 1px 0 #014574;
+        letter-spacing:1px;
+        font-size: 110%;
+    }
+    .upper-content h4{
+        letter-spacing:1px;
+        font-size: 64%;
+    }
+    .upper-content h5{
+        color: #005a9b;
+        text-shadow: 1px 0 #005a9b;
+        letter-spacing:2px;
+        font-size: 55%;
+    }
+    #middle-content h1{
+        font-size: 150%;
+    }
+    #signature-container p{
+        font-size: 30%;
+        
+    }
+    .footer{
+        font-size: 70%;
+    }
+    
+}
+@media(max-width:360px){
+    .container{
+        padding-top: 2%;
+    }
+    .upper-content h4{
+        letter-spacing:1px;
+        font-size: 53%;
+    }
+    .upper-content h5{
+        color: #005a9b;
+        text-shadow: 1px 0 #005a9b;
+        letter-spacing:2px;
+        font-size: 47%;
+    }
 }
