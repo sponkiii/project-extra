@@ -206,6 +206,11 @@ hr{
         top: 62%;
     }
 }
+@media(max-width:411px){
+    .footer{
+        top: 44%;
+    }
+}
 @media(max-width:400px){
     .content{
         margin-top: 10%;
@@ -238,9 +243,14 @@ hr{
     }
     .footer{
         font-size: 70%;
-        top: 61%;
+        top: 35%;
     }
     
+}
+@media(max-width:375px){
+    .footer{
+        top: 50%;
+    }
 }
 @media(max-width:360px){
     .container{
@@ -258,5 +268,10 @@ hr{
     }
     .footer{
         top: 51%;
+    }
+}
+@media(max-width:320px){
+    .footer{
+        top: 55%;
     }
 }
