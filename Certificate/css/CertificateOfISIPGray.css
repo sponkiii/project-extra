@@ -140,6 +140,7 @@
 }
 hr{
     border: 1px solid black; 
+    background-color: #000000;
     width: 30%;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -184,16 +185,26 @@ hr{
     }
     #signature-container{
         margin-top: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 7%;
     }
     #signature-container p{
         font-size: 35%;
-        
     }
     .footer{
         font-size: 70%;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 61%;
     }
     
+}
+@media(max-width:574px){
+    .footer{
+        top: 62%;
+    }
 }
 @media(max-width:400px){
     .content{
@@ -211,12 +222,15 @@ hr{
     }
     .upper-content h5{
         color: #005a9b;
-        text-shadow: 1px 0 #005a9b;
+        text-shadow: 0 0 #005a9b;
         letter-spacing:2px;
-        font-size: 55%;
+        font-size: 50%;
     }
     #middle-content h1{
         font-size: 150%;
+    }
+    #signature-container{
+        margin-bottom: 15%;
     }
     #signature-container p{
         font-size: 30%;
@@ -224,6 +238,7 @@ hr{
     }
     .footer{
         font-size: 70%;
+        top: 61%;
     }
     
 }
@@ -237,8 +252,11 @@ hr{
     }
     .upper-content h5{
         color: #005a9b;
-        text-shadow: 1px 0 #005a9b;
+        text-shadow: 0 0 #005a9b;
         letter-spacing:2px;
         font-size: 47%;
+    }
+    .footer{
+        top: 51%;
     }
 }
