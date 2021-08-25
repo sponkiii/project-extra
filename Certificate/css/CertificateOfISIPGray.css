@@ -163,7 +163,6 @@ hr{
         margin-bottom: 5%;
     }
     .upper-content h1{
-        text-shadow: 1px 0 #014574;
         letter-spacing:1px;
         font-size: 150%;
     }
@@ -174,7 +173,7 @@ hr{
     .upper-content h5{
         margin-top: 2%;
         color: #005a9b;
-        text-shadow: 1px 0 #005a9b;
+        text-shadow: 0 0 #005a9b;
         letter-spacing:3px;
         font-size: 60%;
     }
@@ -197,7 +196,7 @@ hr{
         margin-right: auto;
         left: 0;
         right: 0;
-        top: 61%;
+        top: 34%;
     }
     
 }
@@ -206,9 +205,20 @@ hr{
         top: 62%;
     }
 }
-@media(max-width:411px){
+@media(max-width:540px){
     .footer{
-        top: 44%;
+        top: 48%;
+    }
+}
+@media(max-width:411px){
+    .upper-content h4{
+        font-size: 65%;
+    }
+    #signature-container{
+        margin-bottom: 15%;
+    }
+    .footer{
+        top: 47%;
     }
 }
 @media(max-width:400px){
@@ -217,7 +227,6 @@ hr{
         margin-bottom: 10%;
     }
     .upper-content h1{
-        text-shadow: 1px 0 #014574;
         letter-spacing:1px;
         font-size: 110%;
     }
@@ -271,7 +280,10 @@ hr{
     }
 }
 @media(max-width:320px){
+    #signature-container{
+        margin-bottom: 18%;
+    }
     .footer{
-        top: 55%;
+        top: 57%;
     }
 }
